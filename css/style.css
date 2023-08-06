@@ -4,7 +4,7 @@ nav{
     left: 0;
     width: 100%;
     color: white;
-    background-color: gray;
+    background-color:#ee964b;
     z-index: 1000;
 }
 nav ul{
@@ -21,8 +21,8 @@ nav a{
     color: white;
 }
 nav a:hover{
-    color: #ff6600;
+    color:yellow;
 }
-.navmenu{
+.navmenu nav{
     border: 3px solid black;
 }
