@@ -1,3 +1,7 @@
+body{
+    background-color:white;
+}
+
 nav{
     position: fixed;
     top: 0;
@@ -21,8 +25,18 @@ nav a{
     color: white;
 }
 nav a:hover{
-    color:yellow;
+    color:blue;
 }
 .navmenu nav{
     border: 3px solid black;
+}
+.img img{
+    margin-top: 100px;
+    width: 100%; /* Adjust the width percentage as needed */
+    max-width: 500px; /* Optionally, set a maximum width to avoid excessive stretching */
+    display: block; /* Ensure the image is treated as a block element */
+    margin: 0 auto; 
+}
+.text{
+    vertical-align: baseline;
 }
