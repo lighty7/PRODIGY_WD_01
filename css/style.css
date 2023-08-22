@@ -40,3 +40,30 @@ nav a:hover{
 .text{
     vertical-align: baseline;
 }
+.parent{
+    border: 3px solid black;
+}
+.child0 {
+    width: 50%;
+    float: left;
+    padding: 20px;
+    border: 2px solid red;
+}  
+.child2{
+        width: 50%;
+        float: left;
+        padding: 20px;
+        border: 2px solid red;
+}
+.child1{
+    width: 50%;
+    float: left;
+    padding: 20px;
+    border: 2px solid red;
+}
+.child3{
+    width: 50%;
+    float: left;
+    padding: 20px;
+    border: 2px solid red;
+}
