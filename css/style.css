@@ -1,69 +1,95 @@
-body{
-    background-color:white;
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
 }
+body {
+    display: flex;
+    background: #E8DFC4;
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .navigation {
 
-nav{
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    color: white;
-    background-color:#ee964b;
+    background-color:rgb(204, 113, 92);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     z-index: 1000;
-}
-nav ul{
+  }
+  
+  .menu {
+    
     list-style: none;
+    margin: 0;
+    padding: 10px 0;
     display: flex;
     justify-content: center;
-    padding: 10px 0;
-}
-nav li{
-    margin: 0 20px;
-}
-nav a{
+  }
+  
+  .menu li {
+    margin: 0 15px;
+  }
+  
+  .menu li a {
     text-decoration: none;
-    color: white;
+    color: #333;
+    transition: color 0.3s;
+  }
+  
+  .menu li a:hover {
+    color: #E8DFC4;
+  }
+
+.scrolled {
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .content {
+    height: 1500px; 
+    padding-top: 40px;
+  }
+  .home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+#img-home{
+  border-radius: 20px;
 }
-nav a:hover{
-    color:blue;
-}
-.navmenu nav{
-    border: 3px solid black;
-}
-.img img{
-    margin-top: 100px;
-    width: 100%; /* Adjust the width percentage as needed */
-    max-width: 500px; /* Optionally, set a maximum width to avoid excessive stretching */
-    display: block; /* Ensure the image is treated as a block element */
-    margin: 0 auto; 
-}
-.text{
-    vertical-align: baseline;
-}
-.parent{
-    border: 3px solid black;
-}
-.child0 {
-    width: 50%;
-    float: left;
-    padding: 20px;
-    border: 2px solid red;
+.li-icon{
+  font-size: 30px;
+  color:#aaaaaa;
 }  
-.child2{
-        width: 50%;
-        float: left;
-        padding: 20px;
-        border: 2px solid red;
+.li-icon:hover{
+  color: black;
 }
-.child1{
-    width: 50%;
-    float: left;
-    padding: 20px;
-    border: 2px solid red;
+.gt-icon{
+  color:#aaaaaa;
+  font-size: 30px;
 }
-.child3{
-    width: 50%;
-    float: left;
-    padding: 20px;
-    border: 2px solid red;
+.gt-icon:hover{
+  color: black;
+}
+.about-text{
+  margin: 170px auto;
+  width: 70%;
+ 
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+.about-text p{
+  display: block;
+  font-size: 20px;
+  padding-left: 20px;
+}
+.abou-img{
+  float: right;
+ width: 300px;
 }
